@@ -1,0 +1,279 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: lightgrey;
+}
+
+/*header*/
+.head {
+  background-color: lightblue;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  border-bottom: 3px solid white;
+}
+
+header h1 {
+  font-size: 30px;
+  color: white;
+  padding-top: 0px;
+  font-family: arial;
+  margin-left: 20px;
+
+}
+
+header ul {
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+}
+
+a li {
+  float: right;
+  display: inline-block;
+  padding-right: 50px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  line-height: 2.0;
+}
+
+/*section*/
+
+#newsletter {
+  padding-top: 40px;
+  font-size: 20px;
+  border-bottom: 3px solid white;
+}
+
+#newsletter h5 {
+  text-align: center;
+  padding-top: 40px;
+  color: black;
+  font-size: 20px;
+
+
+}
+
+section p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#main {
+  background: lightblue;
+  padding-bottom: 30px;
+  border-bottom: 3px solid white;
+}
+
+#main .container {
+  padding: 10px;
+}
+
+#main h5 {
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.container .box {
+  background: white;
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.box p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+
+.box h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.write {
+  padding-top: 21px;
+
+}
+
+.write h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.submit {
+  margin-right: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+input {
+  color: white;
+  background-color: lightblue;
+  padding: 15px;
+}
+
+.img {
+  background: lightblue;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.img p {
+  color: white;
+  font-size: 30px;
+}
+
+.img h5 {
+  font-size: 30px;
+  color: white;
+}
+
+.img #pic1 {
+  background-image: url(shine.jpg);
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+  background-position: left;
+  height: 300px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.img #pic2 {
+  background-image: url(shine.jpg);
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+  background-position: center;
+  height: 300px;
+}
+
+.img #pic3 {
+  background-image: url(shine.jpg);
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+  height: 300px;
+}
+
+#pic1 p {
+  font-size: 20px;
+}
+
+#pic2 p {
+  font-size: 20px;
+}
+
+#pic3 p {
+  font-size: 20px;
+}
+
+.write h3 {
+  padding-top: 30px;
+}
+
+.write p {
+  font-size: 20px;
+}
+
+#join {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.train {
+  padding: 10px;
+  background-color: navy;
+}
+
+.train #training {
+  background: white;
+  width: 50%;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  height: 400px;
+  margin-left: 50px;
+}
+
+.train h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#training p {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+
+#pic {
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 30px;
+  background: white;
+  font-weight: normal;
+  height: 300px;
+  width: 40%;
+  float: right;
+  background-image: url(wama.jpg);
+  background-position: bottom;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  color: lightblue;
+  padding: 10px;
+  border-bottom: 3px solid lightblue;
+}
+
+footer ul {
+  float: right;
+  list-style-type: none;
+  font-size: 16px;
+  background-color: black;
+  margin-right: 20px;
+}
+
+footer p {
+  font-size: 16px;
+  margin-left: 20px;
+}
